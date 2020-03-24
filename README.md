@@ -1,1 +1,1 @@
-# Study-Javascript
+# StudyJavascript
