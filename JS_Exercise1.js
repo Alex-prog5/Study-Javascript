@@ -3,20 +3,15 @@
 
 
 // 1st variant -  Напишем функцию с помощью условного оператора if...else
-function minArg (a, b) {
-  if (a < b){
-    return a;
-  } else {
-    return b;
-  }
-}
+let min = (a, b) => a < b ? a : b;
+
 console.log(minArg(20, 40)); // проверка
 console.log(minArg(-35, 0)); // проверка
 
 
 // 2nd variant - Тернарная операция - это тройная операция, краткая запись if...else
 function minArg2 (a, b) {
-return a < b ? a : b;
+  return a < b ? a : b;
 }
 console.log(minArg2(2, 10000)); // проверка
 
